@@ -13,10 +13,10 @@ export class AppComponent {
   }
   public bombSynagogue(){
     var latDec = (Math.random() * 99999) / 10000;
-    var lat = Math.random() * (90 + 90) - 90 + latDec;
+    var lat = (Math.random() * (90 + 90) - 90) + latDec;
     var longDec = (Math.random() * 99999) / 10000;
     var long = (Math.random() * (180 + 180) - 180) + longDec;
 
-    alert("Synagogue bombed at: " + lat + ", " + long);
+    alert("Synagogue bombed at: " + lat.toFixed(5) + ", " + long.toFixed(5));
   }
 }
