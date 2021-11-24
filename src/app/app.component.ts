@@ -9,6 +9,6 @@ export class AppComponent {
   title = 'Cael';
 
   public button(){
-    alert("Fuck you cael");
+    alert("I live under your bed but only when you're not there");
   }
 }
